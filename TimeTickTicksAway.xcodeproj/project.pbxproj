@@ -12,6 +12,7 @@
 		526E91F32256149700B78C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526E91F12256149700B78C83 /* Main.storyboard */; };
 		526E91F52256149800B78C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526E91F42256149800B78C83 /* Assets.xcassets */; };
 		526E91F82256149800B78C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526E91F62256149800B78C83 /* LaunchScreen.storyboard */; };
+		52EFEC4B22579B6600D00223 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52EFEC4A22579B6600D00223 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		526E91F42256149800B78C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526E91F72256149800B78C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526E91F92256149800B78C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EFEC4A22579B6600D00223 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		526E91E12256149700B78C83 = {
 			isa = PBXGroup;
 			children = (
+				52EFEC4C22579C1700D00223 /* README_resource */,
+				52EFEC4A22579B6600D00223 /* README.md */,
 				526E91EC2256149700B78C83 /* TimeTickTicksAway */,
 				526E91EB2256149700B78C83 /* Products */,
 			);
@@ -62,6 +66,13 @@
 				526E91F92256149800B78C83 /* Info.plist */,
 			);
 			path = TimeTickTicksAway;
+			sourceTree = "<group>";
+		};
+		52EFEC4C22579C1700D00223 /* README_resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = README_resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				526E91F82256149800B78C83 /* LaunchScreen.storyboard in Resources */,
 				526E91F52256149800B78C83 /* Assets.xcassets in Resources */,
+				52EFEC4B22579B6600D00223 /* README.md in Resources */,
 				526E91F32256149700B78C83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
